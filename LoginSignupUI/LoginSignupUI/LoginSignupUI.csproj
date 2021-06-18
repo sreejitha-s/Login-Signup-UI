@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fb.png" />
+    <None Remove="google1.png" />
+    <None Remove="twitter.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fb.png" />
+    <Resource Include="google1.png" />
+    <Resource Include="twitter.png" />
+  </ItemGroup>
+
+</Project>
