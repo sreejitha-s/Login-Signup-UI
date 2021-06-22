@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginSignupUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Border BorderBrush="DarkBlue" BorderThickness="10">
         <Grid Margin="5,-2,-5,2">
 
             <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
-                <Label Content="BoardMe" Background="White" Foreground="Blue" FontWeight="Bold" FontSize="16" Margin="12"/>
+                <Label Content="BoardMe" Background="White" Foreground="#3457DC"  FontWeight="Bold" FontSize="16" Margin="12"/>
                 <StackPanel Width="370">
                     <StackPanel Margin="0,50,60,50" Width="250" >
 
                         <Label HorizontalAlignment="Center" Content="Log in to Your Account" Foreground="Black"  FontSize="12" FontWeight="Bold"/>
                         <TextBlock FontSize="9" TextAlignment="Center" Text="Log in to your account so you can continue building and editing your onboarding flows." Margin="0,8" Width="208" TextWrapping="Wrap"/>
                         <Label FontSize="11" FontWeight="DemiBold">Email</Label>
-                        <TextBox x:Name="emailAddress" Height="25" BorderBrush="LightGray" Margin="5,0"></TextBox>
+                        <TextBox x:Name="txtEmailAddress" Height="25" BorderBrush="LightGray" Margin="5,0"></TextBox>
                         <Label FontSize="11" FontWeight="DemiBold">Password</Label>
-                        <TextBox x:Name="password" Height="25" BorderBrush="LightGray" Margin="5,0"></TextBox>
+                        <TextBox x:Name="txtPassword" Height="25" BorderBrush="LightGray" Margin="5,0"></TextBox>
                         <StackPanel Orientation="Horizontal" Height="30">
                             <CheckBox BorderBrush="LightGray" Name="rememberMe" Margin="5,7,0,0"></CheckBox>
                             <Label FontSize="10">Remember Me</Label>
@@ -52,6 +52,7 @@
                         <TextBlock Margin="0,20" FontSize="9" TextAlignment="Center" Width="250" Text="Let's get you all set up so you can start creating your first onboarding experience." TextWrapping="Wrap" Foreground="white"/>
                         <Button Content="SIGN UP" Foreground="White" Width="90" Height="25" Background="blue" BorderBrush="White" BorderThickness="1" Click="Button_Click"/>
                     </StackPanel>
+                    <Button Content="Button" Click="Button_Click_1" Height="47" Width="113" RenderTransformOrigin="1.827,-4.326"/>
                 </StackPanel>
             </StackPanel>
         </Grid>

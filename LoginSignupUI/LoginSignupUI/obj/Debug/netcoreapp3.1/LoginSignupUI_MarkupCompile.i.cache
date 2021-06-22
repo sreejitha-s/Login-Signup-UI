@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\quest\source\repos\LoginSignupUI\LoginSignupUI\obj\Debug\netcoreapp3.1\
+D:\Login-Signup-UI\LoginSignupUI\LoginSignupUI\obj\Debug\netcoreapp3.1\
 LoginSignupUI
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\quest\source\repos\LoginSignupUI\LoginSignupUI\App.xaml
+D:\Login-Signup-UI\LoginSignupUI\LoginSignupUI\App.xaml
 2-1518940937
 
 6-1272117196
 192-1533232326
 MainWindow.xaml;SignUp.xaml;
 
-True
+False
 

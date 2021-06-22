@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quest\\source\\repos\\LoginSignupUI\\LoginSignupUI\\LoginSignupUI.csproj",
+      "projectUniqueName": "D:\\Login-Signup-UI\\LoginSignupUI\\LoginSignupUI\\LoginSignupUI.csproj",
       "projectName": "LoginSignupUI",
-      "projectPath": "C:\\Users\\quest\\source\\repos\\LoginSignupUI\\LoginSignupUI\\LoginSignupUI.csproj",
+      "projectPath": "D:\\Login-Signup-UI\\LoginSignupUI\\LoginSignupUI\\LoginSignupUI.csproj",
       "packagesPath": "C:\\Users\\quest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quest\\source\\repos\\LoginSignupUI\\LoginSignupUI\\obj\\",
+      "outputPath": "D:\\Login-Signup-UI\\LoginSignupUI\\LoginSignupUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quest\\AppData\\Roaming\\NuGet\\NuGet.Config",
