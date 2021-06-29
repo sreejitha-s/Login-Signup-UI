@@ -15,7 +15,7 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
-    <Border BorderBrush="#2741a9" BorderThickness="10">
+    <Border BorderBrush="#2741a9" BorderThickness="11">
         <Grid Margin="5,-2,-5,2">
             <Grid.RowDefinitions>
                 <RowDefinition/>
